@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-2048x1536-4523.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  border: solid white;
+  border-radius: 20px;
+  height: 60vh;
+  width: 40vw;
+  backdrop-filter: blur(8px);
+  padding-top: 2.5rem;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+.caixaContador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 6vh;
+}
+
+.botoes button {
+  height: 6vh;
+  width: 4vw;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sinais {
+  font-size: 2rem;
+}
+
+.sinais:hover {
+  box-shadow: 0 0 10px 5px #48abe0, 0 0 25px 20px #8a2be2, 0 0 30px 25px #ff1493;
+}
+
+.reset {
+  font-size: 1rem;
+}
+
+.reset:hover {
+  box-shadow: 0 0 10px 5px #48abe0, 0 0 25px 20px #8a2be2, 0 0 30px 25px #ff1493;
+}
